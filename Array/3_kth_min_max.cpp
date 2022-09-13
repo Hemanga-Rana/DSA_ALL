@@ -4,7 +4,6 @@
 // K=3;
 // Output: 7
 
-
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -24,15 +23,15 @@ int main()
     cout<<kthSmallest(arr,l,r,k)<<endl;
 }
 
-// ************************************
+
+
+// ****************************************************
 // Best Approch O(n)
 
 void printArray(int arr[], int n )
 {
     for(int i=0; i<n; i++)
-    {
         cout<<arr[i]<<" ";
-    }
     cout<<endl;
 }
 
