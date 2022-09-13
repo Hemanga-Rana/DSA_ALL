@@ -47,8 +47,6 @@ int main()
     cout<<"Maximum value "<<max<<endl;
     cout<<"Minimum value "<<min;
 
-
-
     // Second Approch O(nlogn)
     // int arr[]= {2,4,1,9,5};
     // int size = sizeof(arr)/sizeof(int);
