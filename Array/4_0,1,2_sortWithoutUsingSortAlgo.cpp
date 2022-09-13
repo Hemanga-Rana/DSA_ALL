@@ -1,4 +1,12 @@
-// Given an array which consists of only 0,1 and 2. Sort the array without using any sorting algo.
+/* Given an array which consists of only 0,1 and 2. Sort the array without using any sorting algo.
+
+if sample input is: 0 1 0 0 2 1
+0 1 0 0 2 1
+0 0 1 0 2 1
+0 0 0 1 2 1
+0 0 0 1 1 2
+Output: 0 0 0 1 1 2
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

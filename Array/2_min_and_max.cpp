@@ -1,9 +1,9 @@
-// Find the maximum and minimum element in an array  O(n)
+/* Find the maximum and minimum element in an array  O(n)
 
-// Input: arr[] = {3, 5, 4, 1, 9}
-// Output: Minimum element is: 1
-//         Maximum element is: 9
-
+Input: arr[] = {3, 5, 4, 1, 9}
+Output: Minimum element is: 1
+        Maximum element is: 9
+*/
 #include<bits/stdc++.h>
 using namespace std;
 

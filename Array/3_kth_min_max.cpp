@@ -1,9 +1,9 @@
-// Find the "Kth" max and min element of an array. O(nlogn)
-// N=6
-// arr[] = 7 10 4 3 20 15
-// K=3;
-// Output: 7
-
+/* Find the "Kth" max and min element of an array. O(nlogn)
+N=6
+arr[] = 7 10 4 3 20 15
+K=3;
+Output: 7
+*/
 #include<bits/stdc++.h>
 using namespace std;
 
