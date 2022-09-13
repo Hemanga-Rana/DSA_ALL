@@ -1,4 +1,4 @@
-// Find the maximum and minimum element in an array 
+// Find the maximum and minimum element in an array  O(n)
 
 // Input: arr[] = {3, 5, 4, 1, 9}
 // Output: Minimum element is: 1

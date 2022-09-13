@@ -37,3 +37,22 @@ int main()
     printArray(arr, n);
     return 0;
 }
+
+// Alternate way to solve
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int arr[]= {1,2,3,4,5};
+    int size = sizeof(arr)/sizeof(int);
+    int temp[100];
+    int k=0;
+    for(int i=size-1; i>=0; i--)
+    {
+        temp[k]= arr[i];
+        k++;
+    }
+    for(int i=0; i<size; i++)
+        cout<<temp[i]<<" ";
+}
