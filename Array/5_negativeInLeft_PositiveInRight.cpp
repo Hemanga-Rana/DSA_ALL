@@ -38,8 +38,7 @@ int main()
 
 
 
-
-//********************************************
+//***************************************************************
 // GFG Approch O(n)
 // But it prints the positive value in sorted order 
 
