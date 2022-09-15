@@ -71,7 +71,9 @@ int main()
     int m = sizeof(arr1) / sizeof(int);
     int n = sizeof(arr2) / sizeof(int);
 
-    // printUnion(arr1, arr2, m, n);
+    // Print function
+    printUnion(arr1, arr2, m, n);
+    // Count function
     countUnion(arr1, arr2, m, n);
 
 }
