@@ -1,6 +1,14 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+/*
+Approche:
+1. Use two index veriables i and j, initial values i=0, j=0.
+2. if arr1[i] is smaller than arr2[j] then print arr1[i] and increment i.
+3. if arr1[i] is greater then arr2[j] then print arr2[j] and increment j.
+4. if both are same then print any of them and increment both i and j.
+5. Print remaining elements of the larger array.
+*/
 
 // Print the Union ARRAY:
 void printUnion(int arr1[], int arr2[], int m, int n)
